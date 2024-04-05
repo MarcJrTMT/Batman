@@ -65,7 +65,7 @@ p {
 }
  
 .inicio {
-    width: 100%; /* Ajustar tamaño de la imagen */
+    width: 100%; /* Tamaño de la imagen */
     height: 600px; /* Proporción de la imagen */
     font-family: "League Spartan", sans-serif;
 }
@@ -77,7 +77,7 @@ p {
     transform: translate(-50%, -50%); /* Poner el texto en el centro */
     color: white; /* Color texto */
     font-size: 24px; /* Tamaño texto */
-    font-weight: bold; /* Poner el texto en negrita */
+    font-weight: bold; /* Texto en negrita */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
     font-family: "League Spartan", sans-serif;
 } 
