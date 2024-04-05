@@ -57,10 +57,6 @@ p {
     font-family: "League Spartan", sans-serif;
 }
  
- /*{
-     height: 600px;
-    background-image: url(../IMG/header_background.jpeg);
-}*/
  
 .centro {
     position: relative;
@@ -69,7 +65,7 @@ p {
 }
  
 .inicio {
-    width: 100%; /* Ajustar tamaño de la imagen, el % lo escogemos nosotros */
+    width: 100%; /* Ajustar tamaño de la imagen */
     height: 600px; /* Proporción de la imagen */
     font-family: "League Spartan", sans-serif;
 }
@@ -78,7 +74,7 @@ p {
     position: absolute;
     top: 50%; /* Posición verticalmente */
     left: 50%; /* Posición horizontalmente */
-    transform: translate(-50%, -50%); /* Centrar el texto en el centro */
+    transform: translate(-50%, -50%); /* Poner el texto en el centro */
     color: white; /* Color texto */
     font-size: 24px; /* Tamaño texto */
     font-weight: bold; /* Poner el texto en negrita */
