@@ -1,0 +1,88 @@
+.league-spartan {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ 
+section {
+    max-width: 600px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-family: "League Spartan", sans-serif;
+}
+ 
+#Intento1, #Intento2 {
+    display: none;
+    font-family: "League Spartan", sans-serif;
+}
+ 
+@media only screen and (max-width: 600px) {
+    section {
+        max-width: 100%;
+    }
+ 
+    #Intento1, #Intento2 {
+        display: block;
+        font-family: "League Spartan", sans-serif;
+    }
+}
+ 
+a {
+    color: green;
+    font-family: "League Spartan", sans-serif;
+}
+ 
+p {
+    text-align: justify;
+    font-family: "League Spartan", sans-serif;
+}
+ 
+.Imagenes{
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+}
+ 
+.Nombre img {
+    margin-top: 35px;
+    margin: 5px;
+    font-family: "League Spartan", sans-serif;
+}
+ 
+ /*{
+     height: 600px;
+    background-image: url(../IMG/header_background.jpeg);
+}*/
+ 
+.centro {
+    position: relative;
+    text-align: center; /* Centrar el texto */
+    font-family: "League Spartan", sans-serif;
+}
+ 
+.inicio {
+    width: 100%; /* Ajustar tamaño de la imagen, el % lo escogemos nosotros */
+    height: 600px; /* Proporción de la imagen */
+    font-family: "League Spartan", sans-serif;
+}
+ 
+.texto{
+    position: absolute;
+    top: 50%; /* Posición verticalmente */
+    left: 50%; /* Posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centrar el texto en el centro */
+    color: white; /* Color texto */
+    font-size: 24px; /* Tamaño texto */
+    font-weight: bold; /* Poner el texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    font-family: "League Spartan", sans-serif;
+} 
+  
